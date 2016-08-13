@@ -3,8 +3,8 @@
 
 f1 = 1
 f2 = 1
-for i in range(1,21):#输出前四十个月兔子的数量
-    print '%-10d %-10d' % (f1,f2)
+for i in range(1,21):
+    print'%-10d %-d' % (f1,f2)
     if (i % 2 == 0):
         print ''
     f1 = f1 + f2
